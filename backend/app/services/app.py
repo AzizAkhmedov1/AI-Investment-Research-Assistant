@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 import json
-from news_data import get_news  # replace with your actual module names
+from news_data import get_news  
 from ai_opinion import analysis
 
 app = Flask(__name__)
