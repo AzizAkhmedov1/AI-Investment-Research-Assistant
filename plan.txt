@@ -1,6 +1,0 @@
-create a python based api data puller in a separe file which pulls price data and shows it 
-create a python based api data puller in a separe file which pulls news data 
-create a python based LLM which analyzes the last 10 news based on the stock and analyzes whether the news are positive or negative overall
-user inputs the ticker symbol and the webpage shows the price and the ai's opinion whether it is a good time to buy,sell, or hold
-after the search has been done the recent search is stored in the MongoDB database 
-
