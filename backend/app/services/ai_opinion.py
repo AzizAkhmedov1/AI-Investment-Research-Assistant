@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))  # reads OPENAI_API_KEY from environment
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))  
 
 def analysis(ticker: str, news_articles: list):
     headlines_text = "\n".join([f"- {article['title']}" for article in news_articles])
